@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        price
+        // входные данные
+        int ticket = 1000;
 
-
-
-
-        System.out.println();
+        // логика программы
+        int miles = ticket / 20;
+        System.out.println("Вам начислено");
+        System.out.println(miles);
+        System.out.println("миль");
     }
 }
